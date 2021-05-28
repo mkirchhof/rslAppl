@@ -1,0 +1,255 @@
+ID =  4 
+[[1]]
+[[1]]$value
+function (rsl, n, outputClassifiers = TRUE, outputLabels = TRUE, 
+    outputRules = TRUE) 
+{
+    rsl <- .compile(rsl)
+    data <- gRain::simulate.grain(rsl$compiledNet, n)
+    outputVars <- character(0)
+    if (outputClassifiers) 
+        outputVars <- c(outputVars, .getAllClassifiers(rsl))
+    if (outputLabels) 
+        outputVars <- c(outputVars, .getAllLabelNodes(rsl))
+    if (outputRules) 
+        outputVars <- c(outputVars, .getAllRules(rsl))
+    data <- data[, outputVars]
+    data <- .colnamesIDtoNames(rsl, data)
+    data[] <- lapply(data, as.character)
+    return(data)
+}
+
+[[1]]$visible
+[1] FALSE
+
+
+[[2]]
+[[2]]$value
+function (rsl, n, outputClassifiers = TRUE, outputLabels = TRUE, 
+    outputRules = TRUE) 
+{
+    rsl <- .compile(rsl)
+    data <- gRain::simulate.grain(rsl$compiledNet, n)
+    outputVars <- character(0)
+    if (outputClassifiers) 
+        outputVars <- c(outputVars, .getAllClassifiers(rsl))
+    if (outputLabels) 
+        outputVars <- c(outputVars, .getAllLabelNodes(rsl))
+    if (outputRules) 
+        outputVars <- c(outputVars, .getAllRules(rsl))
+    data <- data[, outputVars]
+    data <- .colnamesIDtoNames(rsl, data)
+    data[] <- lapply(data, as.character)
+    return(data)
+}
+
+[[2]]$visible
+[1] FALSE
+
+
+[[3]]
+[[3]]$value
+function (rsl, n, outputClassifiers = TRUE, outputLabels = TRUE, 
+    outputRules = TRUE) 
+{
+    rsl <- .compile(rsl)
+    data <- gRain::simulate.grain(rsl$compiledNet, n)
+    outputVars <- character(0)
+    if (outputClassifiers) 
+        outputVars <- c(outputVars, .getAllClassifiers(rsl))
+    if (outputLabels) 
+        outputVars <- c(outputVars, .getAllLabelNodes(rsl))
+    if (outputRules) 
+        outputVars <- c(outputVars, .getAllRules(rsl))
+    data <- data[, outputVars]
+    data <- .colnamesIDtoNames(rsl, data)
+    data[] <- lapply(data, as.character)
+    return(data)
+}
+
+[[3]]$visible
+[1] FALSE
+
+
+[[4]]
+[[4]]$value
+function (rsl, n, outputClassifiers = TRUE, outputLabels = TRUE, 
+    outputRules = TRUE) 
+{
+    rsl <- .compile(rsl)
+    data <- gRain::simulate.grain(rsl$compiledNet, n)
+    outputVars <- character(0)
+    if (outputClassifiers) 
+        outputVars <- c(outputVars, .getAllClassifiers(rsl))
+    if (outputLabels) 
+        outputVars <- c(outputVars, .getAllLabelNodes(rsl))
+    if (outputRules) 
+        outputVars <- c(outputVars, .getAllRules(rsl))
+    data <- data[, outputVars]
+    data <- .colnamesIDtoNames(rsl, data)
+    data[] <- lapply(data, as.character)
+    return(data)
+}
+
+[[4]]$visible
+[1] FALSE
+
+
+[[5]]
+[[5]]$value
+function (rsl, n, outputClassifiers = TRUE, outputLabels = TRUE, 
+    outputRules = TRUE) 
+{
+    rsl <- .compile(rsl)
+    data <- gRain::simulate.grain(rsl$compiledNet, n)
+    outputVars <- character(0)
+    if (outputClassifiers) 
+        outputVars <- c(outputVars, .getAllClassifiers(rsl))
+    if (outputLabels) 
+        outputVars <- c(outputVars, .getAllLabelNodes(rsl))
+    if (outputRules) 
+        outputVars <- c(outputVars, .getAllRules(rsl))
+    data <- data[, outputVars]
+    data <- .colnamesIDtoNames(rsl, data)
+    data[] <- lapply(data, as.character)
+    return(data)
+}
+
+[[5]]$visible
+[1] FALSE
+
+
+[[6]]
+[[6]]$value
+function (rsl, n, outputClassifiers = TRUE, outputLabels = TRUE, 
+    outputRules = TRUE) 
+{
+    rsl <- .compile(rsl)
+    data <- gRain::simulate.grain(rsl$compiledNet, n)
+    outputVars <- character(0)
+    if (outputClassifiers) 
+        outputVars <- c(outputVars, .getAllClassifiers(rsl))
+    if (outputLabels) 
+        outputVars <- c(outputVars, .getAllLabelNodes(rsl))
+    if (outputRules) 
+        outputVars <- c(outputVars, .getAllRules(rsl))
+    data <- data[, outputVars]
+    data <- .colnamesIDtoNames(rsl, data)
+    data[] <- lapply(data, as.character)
+    return(data)
+}
+
+[[6]]$visible
+[1] FALSE
+
+
+[[7]]
+[[7]]$value
+function (rsl, n, outputClassifiers = TRUE, outputLabels = TRUE, 
+    outputRules = TRUE) 
+{
+    rsl <- .compile(rsl)
+    data <- gRain::simulate.grain(rsl$compiledNet, n)
+    outputVars <- character(0)
+    if (outputClassifiers) 
+        outputVars <- c(outputVars, .getAllClassifiers(rsl))
+    if (outputLabels) 
+        outputVars <- c(outputVars, .getAllLabelNodes(rsl))
+    if (outputRules) 
+        outputVars <- c(outputVars, .getAllRules(rsl))
+    data <- data[, outputVars]
+    data <- .colnamesIDtoNames(rsl, data)
+    data[] <- lapply(data, as.character)
+    return(data)
+}
+
+[[7]]$visible
+[1] FALSE
+
+
+[[8]]
+[[8]]$value
+function (rsl, n, outputClassifiers = TRUE, outputLabels = TRUE, 
+    outputRules = TRUE) 
+{
+    rsl <- .compile(rsl)
+    data <- gRain::simulate.grain(rsl$compiledNet, n)
+    outputVars <- character(0)
+    if (outputClassifiers) 
+        outputVars <- c(outputVars, .getAllClassifiers(rsl))
+    if (outputLabels) 
+        outputVars <- c(outputVars, .getAllLabelNodes(rsl))
+    if (outputRules) 
+        outputVars <- c(outputVars, .getAllRules(rsl))
+    data <- data[, outputVars]
+    data <- .colnamesIDtoNames(rsl, data)
+    data[] <- lapply(data, as.character)
+    return(data)
+}
+
+[[8]]$visible
+[1] FALSE
+
+
+[[9]]
+[[9]]$value
+function (rsl, n, outputClassifiers = TRUE, outputLabels = TRUE, 
+    outputRules = TRUE) 
+{
+    rsl <- .compile(rsl)
+    data <- gRain::simulate.grain(rsl$compiledNet, n)
+    outputVars <- character(0)
+    if (outputClassifiers) 
+        outputVars <- c(outputVars, .getAllClassifiers(rsl))
+    if (outputLabels) 
+        outputVars <- c(outputVars, .getAllLabelNodes(rsl))
+    if (outputRules) 
+        outputVars <- c(outputVars, .getAllRules(rsl))
+    data <- data[, outputVars]
+    data <- .colnamesIDtoNames(rsl, data)
+    data[] <- lapply(data, as.character)
+    return(data)
+}
+
+[[9]]$visible
+[1] FALSE
+
+
+[[10]]
+[[10]]$value
+function (rsl, n, outputClassifiers = TRUE, outputLabels = TRUE, 
+    outputRules = TRUE) 
+{
+    rsl <- .compile(rsl)
+    data <- gRain::simulate.grain(rsl$compiledNet, n)
+    outputVars <- character(0)
+    if (outputClassifiers) 
+        outputVars <- c(outputVars, .getAllClassifiers(rsl))
+    if (outputLabels) 
+        outputVars <- c(outputVars, .getAllLabelNodes(rsl))
+    if (outputRules) 
+        outputVars <- c(outputVars, .getAllRules(rsl))
+    data <- data[, outputVars]
+    data <- .colnamesIDtoNames(rsl, data)
+    data[] <- lapply(data, as.character)
+    return(data)
+}
+
+[[10]]$visible
+[1] FALSE
+
+
+Adding rule  wa <- gait 
+Adding rule  st,kn,cr <- stand 
+Adding rule  st <- step 
+Adding rule  u <- center 
+Adding rule  bf, bs <- down 
+Adding rule  os, oh <- up 
+Adding rule  u <- noMotion 
+Adding rule  re, pi, pl, rl, ca, fm, sc <- rightHand_1 
+Adding rule  re, pi, pl, rl, ca, fm, sc <- leftHand_1 
+Adding rule  id <- noHand_1 
+Adding rule  re, pi, pl, rl, ca <- bulky 
+Adding rule  re, pi, pl, rl, ca <- handy 
+Predicting on val...
+Preprocessing data...Predicting...
